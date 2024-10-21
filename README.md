@@ -13,7 +13,9 @@ These examples present two libraries that are essential to Reachy's operation:
 
 ## Prerequisites
 
-To use those modules, you first need to install them, if you didn't do it earlier. You will find them on GitHub, with the installation procedures explained on the README :
+As the tutorials are in notebook form, you'll need the jupyter extension in your code editor and the library pykernel (<code>pip install pykernel</code>).
+
+To use the modules, you first need to install them, if you didn't do it earlier. You will find them on GitHub, with the installation procedures explained on the README :
 - [SDK](https://github.com/pollen-robotics/reachy2-sdk)
 - [pollen-vision](https://github.com/pollen-robotics/pollen-vision)
 
