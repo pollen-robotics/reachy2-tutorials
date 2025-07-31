@@ -7,6 +7,7 @@ Then you've come to the *right place*!
 
 Here you'll find **notebook tutorials** and **demo scripts** for Reachy2. 
 
+
 ### Notebooks
 They will teach you **step-by-step** how to get to grips with Reachy and use the various libraries available to give it optimum control. The aim is to show how to manage **basic behaviors**, so that you can then create the more **complex** behaviors you wish to implement.
 
@@ -14,21 +15,29 @@ The notebooks present two libraries that are essential to Reachy's operation:
 - *ReachySDK*, for robot control,
 - and *Pollen-Vision*, for object detection in the environment.
 
+
+> #### 💡 Now also compatible with MuJoCo!
+>
+> You can now try Reachy2 **in simulation using MuJoCo**.  
+> The tutorials have been designed to run **both on the real robot and in virtual simulation**, so feel free to play around with the virtual Reachy2 to get comfortable before moving on to the real robot!
+>
+> You’ll find everything you need to set the virtual Reachy2 up and launch MuJoCo [**right here**](https://hub.docker.com/r/pollenrobotics/reachy2). It’s quick to install and fun to explore!
+
 ### Demo scripts 
 
 They are the scripts used for our tests and videos. You can learn how to use the *ReachySDK* and how to implement models from the [*HuggingFace Hub*](https://huggingface.co/models). 
 
 ## Prerequisites
 
-In both cases, you need to install **reachy2-sdk** to control the robot. 
+In both cases, you need to install **reachy2-sdk** > *v1.0.10* to control the robot. 
 
 You can find it on [GitHub](https://github.com/pollen-robotics/reachy2-sdk), with the installation procedures explained on the README. You can find [Getting Started notebooks](https://github.com/pollen-robotics/reachy2-sdk/tree/develop/src/examples) to show you the basics, so do not hesitate to follow them before starting the tutorials !
 
 ### Notebooks
 
-As the tutorials are in notebook form, you'll need the *jupyter extension* in your code editor and the library *pykernel* (<code>pip install pykernel</code>).
+- As the tutorials are in notebook form, you'll need the *jupyter extension* in your code editor and the library *pykernel* (<code>pip install pykernel</code>).
 
-For the tutorial n°3, you'll need **pollen-vision module**, available on [GitHub](https://github.com/pollen-robotics/pollen-vision) with the installation procedures explained on the README. 
+ - For the tutorial n°3, you'll need **pollen-vision module** (v2.0.1), available on [GitHub](https://github.com/pollen-robotics/pollen-vision/tree/2.0.1) with the installation procedures explained on the README. 
 
 ### Demo scripts 
 
